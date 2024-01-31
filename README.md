@@ -1,0 +1,2 @@
+# items-aws-lambda-node
+ 
