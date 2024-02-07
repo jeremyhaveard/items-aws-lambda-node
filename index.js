@@ -1,11 +1,6 @@
 
-//import ItemFromDynamoDB, {printDynamoDBItem} from './Objects/ItemFromDynamoDB'
-//import {mapDynamoDBItem} from './Handlers/MappingHandler.js'
-
 const mapDynamoDBItem = require('./Handlers/MappingHandler')
-
 const { DynamoDBClient, ScanCommand } = require("@aws-sdk/client-dynamodb");
-
 const dynamoDbClient = new DynamoDBClient({ region: "us-east-1" });
 
 exports.handler = async (event, context) => {

@@ -1,4 +1,3 @@
-//import ItemFromDynamoDB from '../Objects/ItemFromDynamoDB.js'
 const ItemFromDynamoDB = require('../Objects/ItemFromDynamoDB')
 
 function mapDynamoDBItem (items)
